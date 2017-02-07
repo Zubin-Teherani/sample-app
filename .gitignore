@@ -20,4 +20,8 @@
 # Ignore Byebug command history file.
 .byebug_history
 
+# Ignore database.yml file
 /config/database.yml
+
+# Ignore sprint files
+/spring/*.pid
