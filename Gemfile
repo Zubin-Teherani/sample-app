@@ -4,6 +4,8 @@ ruby '2.3.3'
 
 # Rails
 gem 'rails',        '5.0.1'
+# Bootstrap sass
+gem 'bootstrap-sass', '3.3.6'
 # Web server
 gem 'puma',         '3.4.0'
 # Sass for rails
@@ -29,6 +31,8 @@ group :development do
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
+  gem 'guard-livereload
+  gem 'rack-livereload'
 end
 
 group :test do
