@@ -4,6 +4,8 @@ ruby '2.3.3'
 
 # Rails
 gem 'rails',        '5.0.1'
+# Bcrypt for password_digest
+gem 'bcrypt',       '3.1.11'
 # Bootstrap sass
 gem 'bootstrap-sass', '3.3.6'
 # Web server
